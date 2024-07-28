@@ -3,7 +3,7 @@ The Lift equation is used to calculate the lift force on an airfoil. It calculat
 
 ![Fluid Equation](../../images/lift-equation.png)[^1]
 
-## Inputs
+## Required inputs
 
 You need to specify the following fields in the Lift equation:
 

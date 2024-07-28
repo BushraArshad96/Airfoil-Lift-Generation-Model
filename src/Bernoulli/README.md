@@ -10,7 +10,7 @@ Bernoulli's equation is computationally efficient and allows you to calculate th
 
 ![Bernoilli's Equation](../../images/bernoulli.png)[^1](https://www.sciencefacts.net/wp-content/uploads/2021/07/Bernoullis-Principle-Equation-Formula.jpg)
 
-## Inputs
+## Required inputs
 You need to specify the following fields in Bernoilli's equation:
 
 | Symbol | Stands for | Value Range |
@@ -46,7 +46,7 @@ You need to set the following values:
 
 • `A`: The area of the airfoil of most commercial aircrafts ranges from **51.18 meters** to **817 meters**. For more information, refer to this [link](https://en.wikipedia.org/wiki/Thickness-to-chord_ratio).
 
-• `m`: The mass of an airplane can range from **85000 - 220100 kg**. For more information, refer to this [link](https://euflightcompensation.com/how-much-does-a-plane-weigh/ ). 
+• `m`: The mass of an airplane can range from **85000 - 220100 kg**. For more information, refer to this [link](https://euflightcompensation.com/how-much-does-a-plane-weigh/). 
 
 > **_NOTE:_** The private jets can have a mass even lower than **85,000 kg**.
 
@@ -65,7 +65,7 @@ To calculate the airfoil lift, follow these steps:
     ```             
     P1 - P2 =    (ρ/2)⋅{pow(v2, 2) - pow(v1, 2)}  +  (ρ⋅g)⋅(h2 - h1)  
     ```
-3. The result shows the pressure difference between the upper and lower surfaces of the airfoil. It is influenced by the difference in velocities and height differences, multiplied by air density and gravity. 
+3. The result shows the pressure difference between the upper and lower surfaces of the airfoil which is influenced by the difference in velocities and height differences, multiplied by air density and gravity. 
 
 4. To determine the actual lift force on an airfoil, you need to use the **Area (A)** of the airfoil using the following formulas:
 
